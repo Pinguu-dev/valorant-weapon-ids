@@ -1,9 +1,10 @@
 # valorant-weapon-ids
 All valorant weapon ids to name
 
-# Patch 4.02
+# Updated Patch 4.02
 
-```std::string GetWeaponName(int id)
+```C
+std::string GetWeaponName(int id)
 {
 	switch (id)
 	{
@@ -86,7 +87,6 @@ All valorant weapon ids to name
 		break;
 	case 12819932: return "Sage Revive";
 		break;
-
 	case 12807533: return "Regrowth";
 		break;
 	case 12807965: return "Trailblazer";
@@ -95,7 +95,6 @@ All valorant weapon ids to name
 		break;
 	case 12808373: return "Skye Ult";
 		break;
-
 	case 12810410: return "Owl Drone";
 		break;
 	case 12809986: return "Shock Bolt";
@@ -112,7 +111,6 @@ All valorant weapon ids to name
 		break;
 	case 12813169: return "Viper Ult";
 		break;
-
 	case 12818548: return "Fakeout";
 		break;
 	case 12818993: return "Blindside";
@@ -121,7 +119,6 @@ All valorant weapon ids to name
 		break;
 	case 12819097: return "Yuro Ult";
 		break;
-
 	case 12815611: return "Astra Form";
 		break;
 	case 12814803: return "Nebula";
@@ -130,8 +127,6 @@ All valorant weapon ids to name
 		break;
 	case 12815000: return "Nova Pulse";
 		break;
-
-
 	case 12801307: return "Aftershock";
 		break;
 	case 12801562: return "Flashpoint";
@@ -140,7 +135,6 @@ All valorant weapon ids to name
 		break;
 	case 12801665: return "Breach Ult";
 		break;
-
 	case 12816078: return "Stim Beacon";
 		break;
 	case 12816210: return "Incendiary";
@@ -149,7 +143,6 @@ All valorant weapon ids to name
 		break;
 	case 12816346: return "Brim Ult";
 		break;
-
 	case 12803919: return "Trademark";
 		break;
 	case 12804831: return "Headhunter";
@@ -158,7 +151,6 @@ All valorant weapon ids to name
 		break;
 	case 12805287: return "Chamber Ult";
 		break;
-
 	case 12808850: return "Trapwire";
 		break;
 	case 12808745: return "Cyber Cage";
@@ -169,7 +161,6 @@ All valorant weapon ids to name
 		break;
 	case 12809657: return "Cypher Ult";
 		break;
-
 	case 12821979: return "Cloudburst";
 		break;
 	case 22822206: return "Updraft";
@@ -178,7 +169,6 @@ All valorant weapon ids to name
 		break;
 	case 12822250: return "Jett Ult";
 		break;
-
 	case 12806845: return "Fragment";
 		break;
 	case 12806449: return "Flashdrive";
@@ -187,7 +177,6 @@ All valorant weapon ids to name
 		break;
 	case 12806991: return "KayO Ult";
 		break;
-
 	case 12811258: return "Nanoswarm";
 		break;
 	case 12811870: return "Alarmbot";
@@ -196,7 +185,6 @@ All valorant weapon ids to name
 		break;
 	case 12812138: return "KJ Ult";
 		break;
-
 	case 12816756: return "Fast Lane";
 		break;
 	case 12817067: return "Relay Bolt";
@@ -205,12 +193,10 @@ All valorant weapon ids to name
 		break;
 	case 12817388: return "Neon Ult";
 		break;
-
 	case 12836789: return "Defuser";
 		break;
 	case 12822862: return "Orb";
 		break;
-
 	case 0: return "AFK";
 		break;
 	}
