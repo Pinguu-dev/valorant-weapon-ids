@@ -1,7 +1,7 @@
 # valorant-weapon-ids
 All valorant weapon ids to name
 
-# Updated Patch 4.02
+# Updated Patch 4.03
 
 ```C
 std::string GetWeaponName(int id)
@@ -10,208 +10,210 @@ std::string GetWeaponName(int id)
 	{
 	default: return std::to_string(id);
 		break;
-	case 12956131:  return "Knife";
+	case 12974010:  return XorStr("Knife").c_str();
 		break;
-	case 12820166:  return "Classic";
+	case 12837525:  return XorStr("Classic").c_str();
 		break;
-	case 12919640:  return "Shorty";
+	case 12937503:  return XorStr("Shorty").c_str();
 		break;
-	case 12913101:  return "Sheriff";
+	case 12930964:  return XorStr("Sheriff").c_str();
 		break;
-	case 12896266:  return "Frenzy";
+	case 12914022:  return XorStr("Frenzy").c_str();
 		break;
-	case 12908345:  return "Ghost";
+	case 12926216:  return XorStr("Ghost").c_str();
 		break;
-	case 12948574:  return "Stinger";
+	case 12966437:  return XorStr("Stinger").c_str();
 		break;
-	case 12941076:  return "Spectre";
+	case 12958939:  return XorStr("Spectre").c_str();
 		break;
-	case 12890155:  return "Bucky";
+	case 12907906:  return XorStr("Bucky").c_str();
 		break;
-	case 12886546:  return "Judge";
+	case 12904179:  return XorStr("Judge").c_str();
 		break;
-	case 12873042:  return "Bulldog";
+	case 12890466:  return XorStr("Bulldog").c_str();
 		break;
-	case 12930576:  return "Guardian";
+	case 12948439:  return XorStr("Guardian").c_str();
 		break;
-	case 12877198:  return "Phantom";
+	case 12894734:  return XorStr("Phantom").c_str();
 		break;
-	case 12865969:  return "Vandal";
+	case 12883393:  return XorStr("Vandal").c_str();
 		break;
-	case 12937485:  return "Marshall";
+	case 12955348:  return XorStr("Marshal").c_str();
 		break;
-	case 12921596:  return "Operator";
+	case 12939459:  return XorStr("Operator").c_str();
 		break;
-	case 12861987:  return "Aries";
+	case 12879411:  return XorStr("Ares").c_str();
 		break;
-	case 12858759:  return "Odin";
+	case 12876183:  return XorStr("Odin").c_str();
 		break;
-	case 12820158:  return "Botgun";
+	case 12837517:  return XorStr("Botgun").c_str();
 		break;
-	case 12756766: return "Spike"; 
+	case 12854284: return XorStr("Spike").c_str();
 		break;
-	case 12821067: return "Dark Cover";
+	case 12838426: return XorStr("Dark Cover").c_str();
 		break;
-	case 12821395: return "Paranoia";
+	case 12838754: return XorStr("Paranoia").c_str();
 		break;
-	case 12821246: return "Shrouded Step"; 
+	case 12838605: return XorStr("Shrouded Step").c_str();
 		break;
-	case 12821544: return "Omen Ult"; 
+	case 12838903: return XorStr("Omen Ult").c_str();
 		break;
-	case 12813857: return "Curveball";
+	case 12831216: return XorStr("Curveball").c_str();
 		break;
-	case 12814075: return "Blaze";
+	case 12831434: return XorStr("Blaze").c_str();
 		break;
-	case 12813808: return "Hot Hands";
+	case 12831167: return XorStr("Hot Hands").c_str();
 		break;
-	case 12814272: return "Phoenix Ult";
+	case 12831631: return XorStr("Phoenix Ult").c_str();
 		break;
-	case 12802063: return "Boom Bot";
+	case 12819422: return XorStr("Boom Bot").c_str();
 		break;
-	case 12802332: return "Blast Pack";
+	case 12819691: return XorStr("Blast Pack").c_str();
 		break;
-	case 12801879: return "Paint Shells";
+	case 12819238: return XorStr("Paint Shells").c_str();
 		break;
-	case 12802501: return "Raze Ult";
+	case 12819860: return XorStr("Raze Ult").c_str();
 		break;
-	case 12820285: return "Leer";
+	case 12837644: return XorStr("Leer").c_str();
 		break;
-	case 12820785: return "Reyna Ult";
+	case 12838144: return XorStr("Reyna Ult").c_str();
 		break;
-	case 12819576: return "Barrier Orb";
+	case 12836935: return XorStr("Barrier Orb").c_str();
 		break;
-	case 12819421: return "Slow Orb";
+	case 12836780: return XorStr("Slow Orb").c_str();
 		break;
-	case 12819821: return "Healing Orb";
+	case 12837180: return XorStr("Healing Orb").c_str();
 		break;
-	case 12819932: return "Sage Revive";
-		break;
-
-	case 12807533: return "Regrowth";
-		break;
-	case 12807965: return "Trailblazer";
-		break;
-	case 12807657: return "Guiding Light";
-		break;
-	case 12808373: return "Skye Ult";
+	case 12837291: return XorStr("Sage Revive").c_str();
 		break;
 
-	case 12810410: return "Owl Drone";
+	case 12824892: return XorStr("Regrowth").c_str();
 		break;
-	case 12809986: return "Shock Bolt";
+	case 12825324: return XorStr("Trailblazer").c_str();
 		break;
-	case 12810471: return "Recon Bolt";
+	case 12825016: return XorStr("Guiding Light").c_str();
 		break;
-	case 12810735: return "Sova Ult";
-		break;
-	case 12813017: return "Snake Bite";
-		break;
-	case 12812586: return "Toxic Cloud";
-		break;
-	case 12812787: return "Toxic Screen";
-		break;
-	case 12813169: return "Viper Ult";
+	case 12825732: return XorStr("Skye Ult").c_str();
 		break;
 
-	case 12818548: return "Fakeout";
+	case 12827769: return XorStr("Owl Drone").c_str();
 		break;
-	case 12818993: return "Blindside";
+	case 12827345: return XorStr("Shock Bolt").c_str();
 		break;
-	case 12818699: return "Gatecrash";
+	case 12827830: return XorStr("Recon Bolt").c_str();
 		break;
-	case 12819097: return "Yuro Ult";
+	case 12828094: return XorStr("Sova Ult").c_str();
 		break;
-
-	case 12815611: return "Astra Form";
+	case 12830376: return XorStr("Snake Bite").c_str();
 		break;
-	case 12814803: return "Nebula";
+	case 12829945: return XorStr("Toxic Cloud").c_str();
 		break;
-	case 12814683: return "Gravity Well";
+	case 12830146: return XorStr("Toxic Screen").c_str();
 		break;
-	case 12815000: return "Nova Pulse";
-		break;
-
-
-	case 12801307: return "Aftershock";
-		break;
-	case 12801562: return "Flashpoint";
-		break;
-	case 12801450: return "Fault Line";
-		break;
-	case 12801665: return "Breach Ult";
+	case 12830528: return XorStr("Viper Ult").c_str();
 		break;
 
-	case 12816078: return "Stim Beacon";
+	case 12835907: return XorStr("Fakeout").c_str();
 		break;
-	case 12816210: return "Incendiary";
+	case 12836352: return XorStr("Blindside").c_str();
 		break;
-	case 12815877: return "Sky Smoke";
+	case 12836058: return XorStr("Gatecrash").c_str();
 		break;
-	case 12816346: return "Brim Ult";
-		break;
-
-	case 12803919: return "Trademark";
-		break;
-	case 12804831: return "Headhunter";
-		break;
-	case 12804375: return "Redezvous";
-		break;
-	case 12805287: return "Chamber Ult";
+	case 12836456: return XorStr("Yuro Ult").c_str();
 		break;
 
-	case 12808850: return "Trapwire";
+	case 12832970: return XorStr("Astra Fly").c_str();
 		break;
-	case 12808745: return "Cyber Cage";
+	case 12832457: return XorStr("Astra Form").c_str();
 		break;
-	case 12809230: return "Spycam";
+	case 12832162: return XorStr("Nebula").c_str();
 		break;
-	case 12809238: return "Spycam (Active)";
+	case 12832042: return XorStr("Gravity Well").c_str();
 		break;
-	case 12809657: return "Cypher Ult";
-		break;
-
-	case 12821979: return "Cloudburst";
-		break;
-	case 22822206: return "Updraft";
-		break;
-	case 12822163: return "Tailwind";
-		break;
-	case 12822250: return "Jett Ult";
+	case 12832359: return XorStr("Nova Pulse").c_str();
 		break;
 
-	case 12806845: return "Fragment";
+
+	case 12818640: return XorStr("Aftershock").c_str();
 		break;
-	case 12806449: return "Flashdrive";
+	case 12818895: return XorStr("Flashpoint").c_str();
 		break;
-	case 12806597: return "Zeropoint";
+	case 12818783: return XorStr("Fault Line").c_str();
 		break;
-	case 12806991: return "KayO Ult";
+	case 12818998: return XorStr("Breach Ult").c_str();
 		break;
 
-	case 12811258: return "Nanoswarm";
+	case 12833437: return XorStr("Stim Beacon").c_str();
 		break;
-	case 12811870: return "Alarmbot";
+	case 12833569: return XorStr("Incendiary").c_str();
 		break;
-	case 12811463: return "Turret";
+	case 12833236: return XorStr("Sky Smoke").c_str();
 		break;
-	case 12812138: return "KJ Ult";
-		break;
-
-	case 12816756: return "Fast Lane";
-		break;
-	case 12817067: return "Relay Bolt";
-		break;
-	case 12816912: return "High Gear";
-		break;
-	case 12817388: return "Neon Ult";
+	case 12833705: return XorStr("Brim Ult").c_str();
 		break;
 
-	case 12836789: return "Defuser";
+	case 12821278: return XorStr("Trademark").c_str();
 		break;
-	case 12822862: return "Orb";
+	case 12822190: return XorStr("Headhunter").c_str();
+		break;
+	case 12821734: return XorStr("Redezvous").c_str();
+		break;
+	case 12822646: return XorStr("Chamber Ult").c_str();
 		break;
 
-	case 0: return "AFK";
+	case 12826209: return XorStr("Trapwire").c_str();
+		break;
+	case 12826104: return XorStr("Cyber Cage").c_str();
+		break;
+	case 12826589: return XorStr("Spycam").c_str();
+		break;
+	case 12826597: return XorStr("Spycam (Active)").c_str();
+		break;
+	case 12827016: return XorStr("Cypher Ult").c_str();
+		break;
+
+	case 12839338: return XorStr("Cloudburst").c_str();
+		break;
+	case 12839565: return XorStr("Updraft").c_str();
+		break;
+	case 12839522: return XorStr("Tailwind").c_str();
+		break;
+	case 12839609: return XorStr("Jett Ult").c_str();
+		break;
+
+	case 12824204: return XorStr("Fragment").c_str();
+		break;
+	case 12823808: return XorStr("Flashdrive").c_str();
+		break;
+	case 12823956: return XorStr("Zeropoint").c_str();
+		break;
+	case 12824350: return XorStr("KayO Ult").c_str();
+		break;
+
+	case 12828617: return XorStr("Nanoswarm").c_str();
+		break;
+	case 12829229: return XorStr("Alarmbot").c_str();
+		break;
+	case 12828822: return XorStr("Turret").c_str();
+		break;
+	case 12829497: return XorStr("KJ Ult").c_str();
+		break;
+
+	case 12834115: return XorStr("Fast Lane").c_str();
+		break;
+	case 12834426: return XorStr("Relay Bolt").c_str();
+		break;
+	case 12834271: return XorStr("High Gear").c_str();
+		break;
+	case 12834747: return XorStr("Neon Ult").c_str();
+		break;
+
+	case 12854307: return XorStr("Defuser").c_str();
+		break;
+	case 12840221: return XorStr("Orb").c_str();
+		break;
+
+	case 0: return XorStr("AFK").c_str();
 		break;
 	}
 }```
