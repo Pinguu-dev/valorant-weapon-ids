@@ -1,7 +1,7 @@
 # valorant-weapon-ids
 All valorant weapon ids to name
 
-# Updated Patch 4.03
+# Updated Patch 4.04
 
 ```C
 std::string GetWeaponName(int id)
