@@ -21,4 +21,5 @@ All valorant weapon ids to name
 13863812 Marshal
 13845881 Operator
 13779228 Ares
-13775733 Odin```
+13775733 Odin
+```
